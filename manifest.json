@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Fullpagecapture",
+  "version": "1.0.0",
+  "description": "Capture full web pages and save them as PNG images.",
+  "permissions": ["activeTab", "scripting", "downloads", "storage"],
+  "action": {
+    "default_title": "Fullpagecapture",
+    "default_popup": "popup.html"
+  },
+  "icons": {}
+}

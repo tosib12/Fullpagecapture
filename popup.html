@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Fullpagecapture</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <div class="brand-mark">F</div>
+    <div><h1>Fullpagecapture</h1><p>Capture the whole page</p></div>
+  </header>
+
+  <main>
+    <button id="captureBtn" class="primary"><span>▣</span> Capture full page</button>
+    <div id="status" class="status" role="status">Ready to capture the active tab.</div>
+
+    <section class="feature-list">
+      <div><span class="check">✓</span><span><b>Unlimited captures</b><small>Basic plan</small></span></div>
+      <div><span class="check">✓</span><span><b>Automatic scrolling</b><small>Stitches visible page sections</small></span></div>
+      <div><span class="lock">★</span><span><b>Premium tools</b><small>Crop, annotations and PDF splitting — planned</small></span></div>
+    </section>
+
+    <section class="premium">
+      <div class="premium-title"><div><b>Upgrade to Premium</b><small>Unlock advanced tools when available</small></div><span>PRO</span></div>
+      <div class="plans">
+        <div class="plan"><b>$0.50</b><small>6 months</small></div>
+        <div class="plan"><b>$1.00</b><small>12 months</small></div>
+      </div>
+      <p class="notice">Payments are not enabled in this starter build. Do not enter payment details here.</p>
+    </section>
+    <p class="foot">Tip: open a normal website tab first. Browser-internal pages cannot be captured.</p>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

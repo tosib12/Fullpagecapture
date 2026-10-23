@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "description": "Capture full web pages and save them as PNG images.",
   "permissions": ["activeTab", "scripting", "downloads", "storage"],
+  "background": {
+  "service_worker": "premium.js"
+},
   "action": {
     "default_title": "Fullpagecapture",
     "default_popup": "popup.html"
